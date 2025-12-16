@@ -1,0 +1,28 @@
+# --- Core Framework ---
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# --- HTTP Requests (for Ollama or other APIs) ---
+requests
+
+# --- For ML/Dataset Analysis (optional, used later) ---
+pandas
+scikit-learn
+matplotlib
+numpy
+
+# --- For Templating/Project Generation (optional, used later) ---
+jinja2
+
+# --- Type Checking / Parsing ---
+pydantic
+
+fastapi
+uvicorn
+pandas
+jinja2
+python-multipart
+openpyxl  # for Excel support
+requests
+flask

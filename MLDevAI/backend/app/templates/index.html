@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MLDev AI</title>
+
+  <!-- CodeMirror CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/material.min.css">
+
+  <!-- CodeMirror JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/python/python.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      margin: 20px auto;
+      max-width: 960px;
+      padding: 0 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type="file"], input[type="text"], select, button, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    pre {
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 14px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 6px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .CodeMirror {
+      height: auto !important;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    @media (max-width: 700px) {
+      .data-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>MLDev AI</h1>
+
+<div class="section">
+  <h2>Upload CSV Dataset</h2>
+  <form action="/analyze" method="POST" enctype="multipart/form-data">
+    <input type="file" name="dataset" accept=".csv" required>
+
+    {% if dataset_info and dataset_info.columns %}
+      <label for="target">Target Column for Scatter Plots (optional):</label>
+      <select name="target" id="target">
+        {% for col in dataset_info.columns %}
+          <option value="{{ col }}">{{ col }}</option>
+        {% endfor %}
+      </select>
+    {% endif %}
+
+    <button type="submit">Analyze</button>
+  </form>
+</div>
+
+{% if dataset_info %}
+  {% if dataset_info.plots %}
+    <div class="section">
+      <h2>Exploratory Data Analysis (Plots)</h2>
+
+      <div>
+        <h3>Histogram</h3>
+        <img src="{{ url_for('static', filename='plots/' + dataset_info.plots.hist) }}" alt="Histogram">
+      </div>
+
+      <div>
+        <h3>Correlation Heatmap</h3>
+        <img src="{{ url_for('static', filename='plots/' + dataset_info.plots.corr) }}" alt="Correlation Heatmap">
+      </div>
+
+      <div>
+        <h3>Missing Values</h3>
+        <img src="{{ url_for('static', filename='plots/' + dataset_info.plots.missing) }}" alt="Missing Value Heatmap">
+      </div>
+
+      {% if dataset_info.plots.scatter %}
+        <div>
+          <h3>Scatter Plots vs Target</h3>
+          <div class="data-grid">
+            {% for scatter_file in dataset_info.plots.scatter %}
+              <div>
+                <img src="{{ url_for('static', filename='plots/' + scatter_file) }}" alt="{{ scatter_file }}">
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="section">
+    <h2>Dataset Analysis</h2>
+    {% if dataset_info.error %}
+      <p style="color:red">{{ dataset_info.error }}</p>
+    {% else %}
+      <p><strong>Shape:</strong> {{ dataset_info.shape }}</p>
+      <p><strong>Columns:</strong> {{ dataset_info.columns }}</p>
+      <p><strong>Data Types:</strong></p>
+      <pre>{{ dataset_info.dtypes }}</pre>
+      <p><strong>Missing Values:</strong></p>
+      <pre>{{ dataset_info.missing_values }}</pre>
+      <p><strong>Preview (first 3 rows):</strong></p>
+      <pre>{{ dataset_info.head }}</pre>
+      <p><strong>Summary Statistics:</strong></p>
+      <pre>{{ dataset_info.describe }}</pre>
+    {% endif %}
+  </div>
+{% endif %}
+
+<div class="section">
+  <h2>Generate Code from Prompt</h2>
+  <form action="/generate-code" method="POST">
+    <textarea id="prompt" name="prompt" placeholder="Describe the task..."></textarea>
+    <button type="submit">Generate Code</button>
+  </form>
+</div>
+
+{% if generated_code %}
+  <div class="section">
+    <h2>Generated Code</h2>
+    <textarea id="code-output">{{ generated_code }}</textarea>
+  </div>
+{% endif %}
+
+<div class="section">
+  <h2>Scaffold Project</h2>
+  <form action="/scaffold" method="POST">
+    <label for="task">Task Type:</label>
+    <select name="task" id="task">
+      <option value="regression">Regression</option>
+      <option value="classification">Classification</option>
+    </select>
+
+    <label for="model">Model Class Name:</label>
+    <input type="text" name="model" id="model" value="LinearRegression" required>
+
+    <label for="dataset_name">Dataset Filename:</label>
+    <input type="text" name="dataset_name" id="dataset_name" value="dataset.csv" required>
+
+    <button type="submit">Generate & Download ZIP</button>
+  </form>
+</div>
+
+<script>
+  const promptEditor = CodeMirror.fromTextArea(document.getElementById("prompt"), {
+    mode: "python",
+    lineNumbers: true,
+    theme: "material",
+    tabSize: 2,
+    viewportMargin: Infinity
+  });
+
+  const outputEl = document.getElementById("code-output");
+  if (outputEl) {
+    CodeMirror.fromTextArea(outputEl, {
+      mode: "python",
+      lineNumbers: true,
+      theme: "material",
+      readOnly: true,
+      tabSize: 2,
+      viewportMargin: Infinity
+    });
+  }
+</script>
+
+</body>
+</html>
