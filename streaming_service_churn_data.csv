@@ -1,0 +1,701 @@
+UserID,Country,Age,Gender,Plan,MonthlyFee,TenureMonths,WatchHoursPerWeek,DevicesUsed,Complaints,PaymentMethod,Churn
+1,India,34.0,Female,Standard,499.0,19,11.4,2,0,UPI,0
+2,India,53.0,Female,Mobile,149.0,33,12.4,1,0,Credit Card,0
+3,USA,51.0,Female,Standard,15.49,3,14.7,2,0,Debit Card,1
+4,India,49.0,Male,Mobile,149.0,7,17.0,1,0,UPI,0
+5,India,53.0,Female,Mobile,149.0,29,16.1,1,1,Debit Card,1
+6,India,31.0,Female,Mobile,149.0,40,15.7,1,0,UPI,0
+7,USA,36.0,Male,Basic,9.99,25,16.1,1,0,Credit Card,1
+8,USA,24.0,Male,Basic,9.99,41,17.3,2,0,Credit Card,0
+9,USA,35.0,Female,Basic,9.99,35,15.2,2,0,Debit Card,0
+10,India,38.0,Female,Mobile,149.0,32,9.2,1,0,UPI,1
+11,India,34.0,Male,Mobile,149.0,22,13.9,1,0,UPI,0
+12,India,43.0,Female,Premium,649.0,28,18.1,4,0,UPI,0
+13,India,26.0,Male,Mobile,149.0,37,8.5,1,0,Debit Card,0
+14,India,43.0,Male,Mobile,149.0,12,12.0,1,0,UPI,0
+15,India,25.0,Female,Mobile,149.0,33,14.7,1,0,UPI,0
+16,India,46.0,Male,Basic,199.0,38,14.0,2,0,UPI,0
+17,USA,29.0,Female,Basic,9.99,36,,2,0,Debit Card,0
+18,India,55.0,Male,Premium,649.0,28,7.6,4,0,UPI,1
+19,India,39.0,Male,Standard,499.0,1,18.0,3,0,UPI,0
+20,India,26.0,Female,Premium,649.0,24,18.5,4,0,Wallet,0
+21,India,48.0,Male,Premium,649.0,18,11.2,4,1,UPI,0
+22,India,39.0,Female,Basic,199.0,3,13.0,1,0,Wallet,0
+23,India,36.0,Male,Premium,649.0,34,14.2,4,0,Debit Card,0
+24,India,27.0,Male,Standard,499.0,28,8.7,3,0,UPI,1
+25,India,54.0,Male,Premium,649.0,21,8.5,4,0,UPI,0
+26,India,26.0,Female,Mobile,149.0,22,8.3,1,0,UPI,0
+27,USA,45.0,Female,Standard,15.49,26,17.5,3,0,Credit Card,0
+28,USA,55.0,Female,Premium,22.99,23,,4,0,Paypal,0
+29,USA,49.0,Male,Premium,22.99,22,5.1,4,0,Paypal,0
+30,India,51.0,Female,Premium,649.0,6,12.5,4,0,UPI,0
+31,USA,51.0,Female,Standard,15.49,19,5.7,2,1,Paypal,1
+32,USA,49.0,Female,Basic,9.99,25,8.7,2,0,Credit Card,0
+33,USA,35.0,Female,Standard,15.49,29,5.2,2,1,Paypal,1
+34,India,39.0,Male,Standard,499.0,30,5.2,3,1,UPI,0
+35,India,55.0,Male,Standard,499.0,16,14.1,2,0,Debit Card,1
+36,India,51.0,Male,Standard,499.0,37,16.8,3,0,Debit Card,0
+37,India,52.0,Male,Standard,499.0,26,17.2,2,0,UPI,0
+38,India,36.0,Male,Premium,649.0,21,12.7,4,0,Wallet,0
+39,India,27.0,Female,Basic,199.0,23,17.4,2,0,Debit Card,0
+40,India,53.0,Female,Premium,649.0,19,4.7,4,1,UPI,0
+41,India,55.0,Female,Standard,499.0,5,9.4,3,0,Debit Card,0
+42,USA,33.0,Female,Basic,9.99,5,12.7,2,1,Debit Card,1
+43,USA,29.0,Male,Standard,15.49,9,15.1,2,0,Credit Card,1
+44,India,43.0,Male,Premium,649.0,4,15.1,4,0,Credit Card,0
+45,USA,42.0,Male,Standard,15.49,28,15.6,3,0,Credit Card,0
+46,USA,48.0,Male,Standard,15.49,33,18.9,2,1,Credit Card,0
+47,USA,34.0,Female,Basic,9.99,20,7.0,1,0,Debit Card,1
+48,USA,46.0,Male,Premium,22.99,16,11.3,4,0,Gift Card,0
+49,India,49.0,Female,Standard,499.0,41,11.3,2,0,UPI,0
+50,USA,36.0,Female,Basic,9.99,5,10.8,2,1,Gift Card,0
+51,India,24.0,Female,Premium,649.0,21,10.4,4,0,UPI,0
+52,India,54.0,Male,Mobile,149.0,28,19.5,1,1,UPI,1
+53,USA,33.0,Male,Basic,9.99,1,13.6,1,0,Debit Card,1
+54,India,49.0,Female,Standard,499.0,12,19.0,2,0,Wallet,0
+55,India,28.0,Male,Standard,499.0,39,4.7,2,0,Wallet,0
+56,India,43.0,Male,Standard,499.0,30,17.4,3,0,Wallet,1
+57,India,47.0,Male,Premium,649.0,13,13.2,4,0,UPI,0
+58,India,34.0,Female,Standard,499.0,4,18.0,2,0,UPI,0
+59,India,28.0,Female,Basic,199.0,21,12.5,2,1,UPI,0
+60,India,49.0,Male,Standard,499.0,30,10.2,2,1,Debit Card,0
+61,India,38.0,Male,Premium,649.0,28,11.4,4,0,UPI,0
+62,India,38.0,Male,Standard,499.0,18,12.5,2,0,Debit Card,0
+63,India,30.0,Female,Basic,199.0,17,11.6,2,0,UPI,0
+64,India,38.0,Female,Standard,499.0,42,9.9,3,0,Debit Card,0
+65,USA,24.0,Male,Basic,9.99,4,5.8,2,0,Credit Card,1
+66,India,,Male,Premium,649.0,2,18.3,4,0,UPI,1
+67,India,53.0,Male,Standard,499.0,26,16.0,2,0,Debit Card,0
+68,India,38.0,Male,Standard,499.0,37,18.5,2,0,UPI,0
+69,India,33.0,Female,Mobile,149.0,20,14.7,1,0,Debit Card,1
+70,India,53.0,Male,Premium,649.0,14,19.4,4,0,Wallet,0
+71,USA,51.0,Female,Premium,22.99,37,7.0,4,0,Paypal,0
+72,USA,27.0,Male,Premium,22.99,40,15.2,4,1,Credit Card,0
+73,India,24.0,Male,Basic,199.0,2,18.1,2,0,UPI,1
+74,USA,55.0,Female,Premium,22.99,30,16.3,4,0,Paypal,0
+75,India,53.0,Female,Standard,499.0,10,16.8,2,0,Wallet,0
+76,India,28.0,Male,Mobile,149.0,2,,1,1,Wallet,1
+77,USA,43.0,Male,Premium,22.99,6,11.4,4,1,Credit Card,0
+78,India,48.0,Male,Mobile,149.0,12,18.3,1,0,Wallet,0
+79,USA,54.0,Female,Basic,9.99,14,18.4,2,0,Credit Card,1
+80,USA,48.0,Male,Premium,22.99,40,10.2,4,0,Debit Card,0
+81,USA,26.0,Male,Standard,15.49,38,9.7,3,0,Paypal,0
+82,India,47.0,Male,Standard,499.0,24,16.2,2,0,UPI,0
+83,India,32.0,Male,Standard,499.0,40,13.4,2,0,Wallet,0
+84,USA,52.0,Male,Basic,9.99,40,8.9,2,0,Debit Card,0
+85,India,42.0,Male,Mobile,149.0,39,8.6,1,1,UPI,1
+86,USA,55.0,Female,Premium,22.99,3,14.6,4,0,Debit Card,0
+87,USA,24.0,Female,Basic,9.99,32,13.5,2,1,Credit Card,1
+88,India,46.0,Female,Mobile,149.0,33,4.9,1,0,Debit Card,0
+89,India,38.0,Male,Basic,199.0,2,5.0,2,0,UPI,1
+90,India,26.0,Female,Premium,649.0,17,11.8,4,1,Wallet,1
+91,India,,Female,Standard,499.0,25,6.6,3,1,Debit Card,1
+92,India,34.0,Female,Premium,649.0,36,5.5,4,0,UPI,0
+93,USA,45.0,Male,Basic,9.99,27,13.5,2,0,Credit Card,1
+94,India,49.0,Female,Mobile,149.0,1,13.5,1,0,UPI,1
+95,India,40.0,Male,Basic,199.0,34,18.8,1,0,Debit Card,0
+96,India,43.0,Male,Premium,649.0,34,11.6,4,0,Credit Card,0
+97,India,31.0,Female,Standard,499.0,37,,3,0,UPI,0
+98,India,40.0,Male,Standard,499.0,12,17.6,3,0,Debit Card,0
+99,USA,48.0,Female,Standard,15.49,26,14.5,2,0,Credit Card,1
+100,India,30.0,Female,Mobile,149.0,8,18.7,1,0,Wallet,1
+101,USA,33.0,Male,Basic,9.99,35,11.7,2,0,Debit Card,0
+102,India,47.0,Male,Standard,499.0,13,17.8,3,0,Debit Card,0
+103,USA,,Male,Basic,9.99,32,19.5,2,0,Credit Card,0
+104,India,47.0,Female,Premium,649.0,25,12.3,4,0,Wallet,0
+105,India,41.0,Female,Standard,499.0,1,5.2,2,0,Debit Card,0
+106,USA,28.0,Male,Standard,15.49,24,13.7,2,1,Gift Card,0
+107,USA,44.0,Male,Standard,15.49,34,5.1,3,0,Credit Card,0
+108,USA,32.0,Male,Standard,15.49,42,11.9,3,1,Debit Card,0
+109,USA,48.0,Male,Premium,22.99,11,8.5,4,0,Paypal,1
+110,USA,32.0,Male,Premium,22.99,34,10.1,4,0,Debit Card,0
+111,India,51.0,Female,Standard,499.0,17,17.7,2,1,UPI,1
+112,USA,36.0,Male,Premium,22.99,16,17.3,4,1,Debit Card,1
+113,USA,33.0,Female,Standard,15.49,7,18.9,2,1,Paypal,0
+114,USA,30.0,Male,Basic,9.99,13,4.6,1,0,Debit Card,1
+115,USA,51.0,Female,Standard,15.49,6,4.8,2,0,Paypal,0
+116,India,45.0,Female,Mobile,149.0,4,15.1,1,0,Wallet,1
+117,India,50.0,Female,Premium,649.0,29,14.2,4,0,Credit Card,0
+118,India,38.0,Male,Premium,649.0,23,8.6,4,1,UPI,0
+119,India,46.0,Male,Standard,499.0,2,8.0,2,1,UPI,1
+120,India,38.0,Female,Premium,649.0,19,19.3,4,0,Credit Card,1
+121,India,55.0,Male,Standard,499.0,15,12.6,2,0,UPI,0
+122,India,41.0,Female,Mobile,149.0,24,13.7,1,0,Wallet,0
+123,India,35.0,Female,Basic,199.0,22,8.5,2,0,UPI,0
+124,India,55.0,Female,Standard,499.0,32,15.9,3,1,Debit Card,0
+125,USA,35.0,Male,Standard,15.49,22,9.7,3,1,Credit Card,0
+126,India,53.0,Male,Premium,649.0,39,13.0,4,0,UPI,0
+127,India,40.0,Female,Standard,499.0,6,13.7,3,0,Wallet,1
+128,USA,43.0,Female,Standard,15.49,11,12.7,3,0,Debit Card,0
+129,India,34.0,Female,Mobile,149.0,13,13.7,1,0,UPI,0
+130,USA,44.0,Male,Basic,9.99,6,7.9,2,1,Credit Card,1
+131,India,52.0,Female,Mobile,149.0,12,18.9,1,0,UPI,1
+132,USA,53.0,Female,Standard,15.49,32,4.9,2,0,Debit Card,0
+133,USA,42.0,Male,Basic,9.99,3,14.0,2,0,Credit Card,1
+134,USA,35.0,Female,Premium,22.99,5,11.1,4,0,Credit Card,0
+135,India,43.0,Female,Mobile,149.0,25,8.4,1,0,Debit Card,0
+136,USA,36.0,Male,Standard,15.49,3,9.5,2,0,Credit Card,0
+137,India,35.0,Male,Basic,199.0,28,,2,0,UPI,0
+138,USA,51.0,Male,Premium,22.99,20,5.4,4,0,Credit Card,1
+139,India,29.0,Male,Premium,649.0,14,10.5,4,0,UPI,0
+140,India,52.0,Male,Standard,499.0,23,6.6,2,0,UPI,1
+141,India,41.0,Male,Mobile,149.0,32,19.0,1,0,Debit Card,0
+142,USA,53.0,Female,Basic,9.99,40,6.2,2,1,Paypal,1
+143,USA,39.0,Male,Standard,15.49,2,5.2,3,0,Credit Card,1
+144,USA,32.0,Male,Premium,22.99,4,16.6,4,0,Debit Card,1
+145,India,47.0,Female,Standard,499.0,15,13.6,2,0,UPI,0
+146,India,26.0,Female,Mobile,149.0,8,13.8,1,0,Debit Card,0
+147,USA,29.0,Female,Basic,9.99,12,12.4,1,0,Credit Card,0
+148,India,35.0,Male,Standard,499.0,16,18.0,2,1,Wallet,0
+149,USA,25.0,Female,Standard,15.49,27,12.5,2,0,Credit Card,0
+150,India,49.0,Male,Standard,499.0,10,7.3,2,0,UPI,0
+151,USA,45.0,Male,Premium,22.99,42,4.5,4,0,Credit Card,0
+152,India,38.0,Female,Mobile,149.0,42,9.8,1,0,UPI,0
+153,India,51.0,Male,Standard,499.0,36,10.9,2,0,UPI,0
+154,India,45.0,Female,Basic,199.0,7,8.0,2,0,UPI,0
+155,USA,44.0,Female,Standard,15.49,39,4.7,2,0,Debit Card,0
+156,India,36.0,Female,Basic,199.0,36,9.4,1,0,Debit Card,0
+157,India,28.0,Female,Mobile,149.0,38,14.7,1,0,Debit Card,0
+158,India,35.0,Female,Basic,199.0,23,5.4,2,1,Credit Card,0
+159,USA,39.0,Female,Basic,9.99,16,,2,1,Debit Card,0
+160,India,42.0,Female,Mobile,149.0,1,12.3,1,1,Wallet,1
+161,USA,39.0,Female,Premium,22.99,14,7.9,4,0,Paypal,0
+162,India,24.0,Male,Premium,649.0,26,12.2,4,1,UPI,0
+163,USA,33.0,Female,Premium,22.99,18,14.6,4,0,Credit Card,0
+164,India,37.0,Male,Basic,199.0,27,9.7,2,0,UPI,1
+165,India,27.0,Male,Standard,499.0,3,16.9,3,0,Debit Card,0
+166,India,36.0,Female,Standard,499.0,28,12.1,2,0,UPI,0
+167,India,51.0,Male,Mobile,149.0,19,7.7,1,0,UPI,1
+168,USA,46.0,Male,Basic,9.99,28,6.0,2,0,Credit Card,0
+169,USA,30.0,Female,Standard,15.49,38,6.5,3,0,Paypal,0
+170,India,37.0,Male,Standard,499.0,2,10.8,3,0,Wallet,1
+171,India,36.0,Male,Premium,649.0,18,5.1,4,0,Debit Card,0
+172,USA,55.0,Male,Basic,9.99,34,15.6,2,0,Credit Card,0
+173,India,36.0,Male,Premium,649.0,9,16.6,4,0,Wallet,0
+174,USA,31.0,Male,Premium,22.99,8,14.1,4,0,Debit Card,0
+175,India,55.0,Female,Standard,499.0,13,,3,0,Debit Card,1
+176,India,43.0,Male,Basic,199.0,36,16.1,2,0,UPI,0
+177,India,55.0,Female,Basic,199.0,32,18.0,2,0,UPI,0
+178,USA,,Female,Standard,15.49,41,11.7,3,0,Paypal,0
+179,India,36.0,Male,Premium,649.0,32,6.4,4,0,Debit Card,1
+180,India,50.0,Female,Basic,199.0,22,18.4,2,0,Debit Card,0
+181,USA,53.0,Male,Premium,22.99,18,7.8,4,1,Credit Card,1
+182,India,55.0,Male,Basic,199.0,25,5.1,1,0,Wallet,1
+183,USA,42.0,Male,Premium,22.99,37,12.1,4,0,Paypal,0
+184,USA,38.0,Male,Premium,22.99,42,16.7,4,0,Credit Card,0
+185,India,55.0,Female,Standard,499.0,21,13.7,2,0,UPI,0
+186,India,,Female,Premium,649.0,14,18.9,4,0,Wallet,0
+187,India,47.0,Male,Premium,649.0,4,17.8,4,0,UPI,0
+188,India,44.0,Female,Standard,499.0,20,17.6,2,0,UPI,0
+189,India,47.0,Female,Standard,499.0,19,16.9,2,0,Debit Card,0
+190,India,29.0,Male,Standard,499.0,36,15.5,2,0,Debit Card,0
+191,USA,48.0,Female,Basic,9.99,6,16.3,1,0,Credit Card,1
+192,India,39.0,Male,Mobile,149.0,3,,1,0,UPI,1
+193,India,36.0,Male,Premium,649.0,26,17.1,4,0,UPI,1
+194,India,29.0,Female,Mobile,149.0,35,15.4,1,0,Wallet,0
+195,USA,54.0,Female,Premium,22.99,30,5.2,4,0,Gift Card,0
+196,India,33.0,Female,Basic,199.0,25,5.5,2,0,UPI,0
+197,USA,27.0,Female,Standard,15.49,15,,3,1,Credit Card,1
+198,USA,35.0,Female,Basic,9.99,21,14.3,1,0,Paypal,0
+199,USA,48.0,Male,Basic,9.99,4,5.8,2,0,Credit Card,1
+200,India,34.0,Male,Standard,499.0,34,11.4,2,0,Debit Card,0
+201,USA,25.0,Female,Standard,15.49,22,16.3,2,0,Paypal,1
+202,USA,55.0,Male,Premium,22.99,4,12.3,4,0,Debit Card,1
+203,USA,50.0,Male,Standard,15.49,26,12.8,2,0,Gift Card,0
+204,India,30.0,Female,Standard,499.0,19,7.4,2,0,UPI,0
+205,USA,31.0,Male,Standard,15.49,40,11.2,2,0,Credit Card,0
+206,India,34.0,Female,Standard,499.0,8,14.3,2,0,Debit Card,0
+207,India,35.0,Male,Standard,499.0,21,9.3,3,1,Credit Card,1
+208,India,26.0,Male,Mobile,149.0,26,15.5,1,0,Wallet,1
+209,USA,42.0,Female,Standard,15.49,9,11.9,3,0,Debit Card,0
+210,USA,53.0,Male,Basic,9.99,41,7.4,2,0,Credit Card,0
+211,USA,53.0,Male,Basic,9.99,16,9.2,1,0,Credit Card,0
+212,USA,46.0,Male,Basic,9.99,25,9.9,1,0,Credit Card,0
+213,USA,40.0,Male,Premium,22.99,15,18.1,4,0,Credit Card,0
+214,India,29.0,Female,Premium,649.0,35,16.5,4,0,Debit Card,0
+215,India,,Female,Basic,199.0,19,16.9,2,0,Wallet,1
+216,USA,51.0,Male,Standard,15.49,14,6.3,2,0,Paypal,0
+217,India,37.0,Male,Mobile,149.0,14,5.2,1,1,UPI,1
+218,USA,32.0,Female,Basic,9.99,29,8.8,2,0,Credit Card,0
+219,India,39.0,Female,Mobile,149.0,9,14.5,1,0,UPI,1
+220,India,38.0,Female,Basic,199.0,15,17.9,2,0,UPI,0
+221,India,27.0,Male,Standard,499.0,22,19.1,2,0,UPI,0
+222,USA,29.0,Female,Premium,22.99,12,18.1,4,0,Credit Card,0
+223,India,26.0,Female,Standard,499.0,20,12.2,2,0,UPI,0
+224,India,49.0,Male,Premium,649.0,42,18.5,4,0,Debit Card,0
+225,USA,42.0,Male,Standard,15.49,13,5.2,2,1,Paypal,0
+226,India,31.0,Female,Standard,499.0,33,18.8,3,0,UPI,0
+227,India,46.0,Male,Standard,499.0,2,16.5,3,0,Debit Card,0
+228,India,35.0,Female,Basic,199.0,2,14.7,2,0,Wallet,0
+229,USA,48.0,Male,Premium,22.99,27,12.4,4,0,Paypal,1
+230,USA,35.0,Male,Standard,15.49,15,,2,0,Credit Card,0
+231,USA,51.0,Male,Premium,22.99,35,12.6,4,1,Debit Card,0
+232,India,26.0,Female,Standard,499.0,23,13.2,2,0,Wallet,0
+233,USA,47.0,Female,Standard,15.49,1,6.8,2,0,Credit Card,1
+234,India,53.0,Male,Basic,199.0,5,17.1,2,0,Debit Card,0
+235,India,53.0,Female,Premium,649.0,4,7.6,4,1,Debit Card,1
+236,India,52.0,Male,Standard,499.0,37,9.2,3,0,UPI,0
+237,USA,38.0,Female,Standard,15.49,22,6.8,2,0,Credit Card,1
+238,USA,33.0,Female,Basic,9.99,21,8.6,2,0,Credit Card,0
+239,India,26.0,Male,Standard,499.0,17,9.0,2,0,UPI,0
+240,USA,28.0,Male,Premium,22.99,27,15.3,4,0,Gift Card,1
+241,India,51.0,Male,Standard,499.0,12,18.7,2,0,UPI,0
+242,India,27.0,Female,Standard,499.0,23,12.2,2,0,Debit Card,1
+243,USA,42.0,Male,Premium,22.99,35,6.1,4,1,Debit Card,0
+244,USA,42.0,Male,Premium,22.99,13,7.8,4,0,Debit Card,1
+245,USA,26.0,Female,Standard,15.49,21,16.6,2,0,Paypal,1
+246,India,31.0,Female,Premium,649.0,7,,4,0,UPI,0
+247,India,,Female,Standard,499.0,1,13.7,2,0,Debit Card,0
+248,India,29.0,Male,Basic,199.0,13,5.6,2,0,UPI,0
+249,India,33.0,Female,Standard,499.0,2,14.5,2,1,UPI,1
+250,India,46.0,Male,Mobile,149.0,39,14.1,1,1,Debit Card,1
+251,India,45.0,Male,Premium,649.0,10,13.9,4,0,Debit Card,0
+252,India,43.0,Male,Premium,649.0,4,16.1,4,0,Debit Card,0
+253,India,25.0,Male,Mobile,149.0,15,7.3,1,0,Wallet,1
+254,India,47.0,Female,Standard,499.0,29,16.9,2,0,UPI,1
+255,India,42.0,Male,Basic,199.0,12,6.2,1,0,UPI,1
+256,USA,38.0,Male,Basic,9.99,37,15.9,2,0,Paypal,0
+257,India,35.0,Male,Mobile,149.0,39,11.0,1,0,UPI,0
+258,India,51.0,Male,Standard,499.0,13,15.3,2,1,UPI,1
+259,USA,46.0,Male,Basic,9.99,8,15.6,2,0,Credit Card,0
+260,USA,27.0,Male,Basic,9.99,10,6.0,2,0,Credit Card,1
+261,USA,37.0,Female,Basic,9.99,38,13.4,1,0,Paypal,0
+262,India,43.0,Male,Standard,499.0,40,17.4,2,0,Wallet,0
+263,India,30.0,Female,Basic,199.0,7,10.1,1,0,UPI,0
+264,USA,32.0,Female,Premium,22.99,25,7.6,4,0,Paypal,1
+265,USA,25.0,Female,Standard,15.49,26,19.4,2,0,Credit Card,0
+266,USA,45.0,Male,Basic,9.99,7,13.8,2,0,Paypal,0
+267,USA,38.0,Male,Premium,22.99,38,11.5,4,1,Credit Card,0
+268,India,28.0,Female,Standard,499.0,33,12.4,2,0,UPI,0
+269,India,45.0,Female,Standard,499.0,13,12.9,3,0,Debit Card,1
+270,USA,34.0,Male,Standard,15.49,6,14.0,2,0,Credit Card,1
+271,India,28.0,Male,Premium,649.0,38,19.2,4,0,UPI,0
+272,USA,34.0,Male,Standard,15.49,8,11.7,3,0,Gift Card,0
+273,USA,47.0,Female,Premium,22.99,9,16.3,4,0,Debit Card,0
+274,USA,33.0,Female,Basic,9.99,27,8.2,2,1,Debit Card,0
+275,USA,46.0,Male,Premium,22.99,25,10.1,4,0,Debit Card,0
+276,USA,50.0,Female,Standard,15.49,29,9.9,3,0,Paypal,0
+277,USA,33.0,Male,Basic,9.99,1,17.5,1,1,Credit Card,1
+278,India,26.0,Female,Standard,499.0,7,18.7,3,0,UPI,0
+279,India,43.0,Male,Standard,499.0,19,5.0,3,0,UPI,0
+280,USA,38.0,Female,Premium,22.99,36,16.1,4,0,Credit Card,0
+281,USA,47.0,Female,Standard,15.49,41,,2,0,Credit Card,0
+282,USA,29.0,Male,Standard,15.49,22,19.0,2,0,Credit Card,0
+283,USA,41.0,Female,Standard,15.49,27,6.4,2,1,Paypal,1
+284,India,45.0,Male,Mobile,149.0,31,4.8,1,0,UPI,0
+285,India,45.0,Male,Basic,199.0,25,12.9,2,0,Credit Card,0
+286,USA,25.0,Female,Basic,9.99,6,14.9,2,1,Credit Card,0
+287,USA,36.0,Female,Standard,15.49,3,16.0,3,0,Gift Card,0
+288,India,27.0,Female,Basic,199.0,19,6.4,2,0,Credit Card,1
+289,India,52.0,Male,Standard,499.0,40,12.1,3,1,Debit Card,0
+290,USA,35.0,Female,Basic,9.99,20,13.9,2,0,Paypal,0
+291,India,46.0,Male,Premium,649.0,18,6.9,4,0,Credit Card,0
+292,India,35.0,Male,Premium,649.0,28,5.5,4,0,UPI,0
+293,India,28.0,Male,Mobile,149.0,4,16.3,1,1,UPI,1
+294,USA,52.0,Female,Premium,22.99,10,4.7,4,0,Credit Card,1
+295,India,51.0,Female,Standard,499.0,20,9.7,2,0,UPI,0
+296,India,51.0,Female,Standard,499.0,39,18.4,2,0,Credit Card,0
+297,India,25.0,Female,Standard,499.0,6,14.6,3,0,Wallet,0
+298,India,52.0,Female,Premium,649.0,10,7.7,4,1,UPI,0
+299,USA,53.0,Male,Basic,9.99,4,12.6,2,0,Paypal,1
+300,USA,29.0,Female,Premium,22.99,27,5.9,4,0,Debit Card,1
+301,India,52.0,Male,Standard,499.0,28,14.1,2,0,UPI,0
+302,India,55.0,Female,Mobile,149.0,5,18.2,1,0,UPI,0
+303,India,39.0,Female,Basic,199.0,18,16.8,2,0,UPI,0
+304,USA,47.0,Male,Standard,15.49,42,7.6,3,0,Credit Card,0
+305,USA,41.0,Female,Premium,22.99,38,11.1,4,0,Debit Card,0
+306,India,45.0,Female,Basic,199.0,4,10.6,2,0,UPI,0
+307,India,29.0,Female,Basic,199.0,21,5.6,1,0,Credit Card,1
+308,USA,26.0,Female,Basic,9.99,27,12.5,2,0,Credit Card,1
+309,USA,55.0,Male,Premium,22.99,42,8.6,4,0,Credit Card,0
+310,USA,36.0,Male,Standard,15.49,5,17.1,3,0,Debit Card,0
+311,USA,28.0,Male,Basic,9.99,23,15.6,2,0,Paypal,0
+312,India,53.0,Male,Basic,199.0,14,14.0,2,0,Wallet,0
+313,India,38.0,Female,Basic,199.0,28,19.3,2,0,UPI,1
+314,USA,33.0,Male,Basic,9.99,13,14.0,2,0,Credit Card,0
+315,India,55.0,Female,Standard,499.0,5,14.7,3,1,UPI,1
+316,USA,50.0,Male,Standard,15.49,32,17.7,3,0,Paypal,0
+317,India,32.0,Male,Mobile,149.0,7,7.3,1,1,UPI,1
+318,India,53.0,Male,Premium,649.0,2,17.7,4,0,Credit Card,0
+319,USA,48.0,Male,Basic,9.99,15,18.6,1,0,Credit Card,0
+320,USA,46.0,Female,Standard,15.49,11,15.1,2,0,Credit Card,0
+321,India,,Female,Mobile,149.0,25,10.9,1,0,UPI,1
+322,India,43.0,Male,Mobile,149.0,29,14.4,1,0,UPI,0
+323,India,54.0,Male,Basic,199.0,42,14.0,1,0,Wallet,0
+324,India,50.0,Male,Mobile,149.0,30,15.4,1,0,UPI,1
+325,India,42.0,Female,Standard,499.0,38,14.1,3,0,Credit Card,0
+326,USA,37.0,Male,Premium,22.99,10,16.7,4,0,Paypal,0
+327,India,28.0,Female,Basic,199.0,1,8.5,2,1,UPI,1
+328,USA,39.0,Female,Standard,15.49,40,11.0,3,0,Credit Card,0
+329,USA,29.0,Female,Premium,22.99,31,14.6,4,0,Gift Card,0
+330,India,36.0,Male,Premium,649.0,21,13.0,4,0,Wallet,0
+331,India,,Female,Premium,649.0,36,,4,0,Wallet,0
+332,India,44.0,Male,Standard,499.0,29,11.1,3,0,Debit Card,0
+333,India,37.0,Female,Basic,199.0,5,19.2,2,0,Debit Card,0
+334,India,34.0,Male,Standard,499.0,18,18.4,3,0,Debit Card,0
+335,USA,45.0,Male,Premium,22.99,1,15.1,4,0,Paypal,1
+336,USA,43.0,Female,Premium,22.99,15,16.5,4,1,Paypal,1
+337,India,36.0,Female,Standard,499.0,36,15.6,2,0,UPI,0
+338,India,40.0,Female,Standard,499.0,7,19.1,3,0,UPI,1
+339,USA,42.0,Female,Basic,9.99,31,11.5,2,0,Paypal,0
+340,India,40.0,Male,Premium,649.0,19,16.3,4,0,Credit Card,0
+341,India,47.0,Female,Mobile,149.0,20,15.9,1,1,UPI,1
+342,India,37.0,Female,Basic,199.0,10,9.8,2,0,UPI,0
+343,USA,55.0,Female,Premium,22.99,23,16.9,4,0,Credit Card,0
+344,India,33.0,Female,Basic,199.0,23,11.4,2,0,UPI,0
+345,India,36.0,Male,Standard,499.0,40,7.5,2,0,Debit Card,0
+346,USA,49.0,Male,Standard,15.49,9,11.7,3,0,Debit Card,1
+347,India,27.0,Male,Standard,499.0,13,16.8,2,0,UPI,0
+348,USA,51.0,Male,Premium,22.99,38,17.3,4,0,Paypal,0
+349,India,39.0,Female,Standard,499.0,8,16.3,2,1,Debit Card,1
+350,India,52.0,Male,Basic,199.0,41,12.3,2,0,Credit Card,0
+351,USA,40.0,Female,Standard,15.49,36,9.8,2,0,Credit Card,0
+352,India,31.0,Male,Mobile,149.0,39,,1,0,Credit Card,0
+353,USA,54.0,Male,Premium,22.99,29,11.6,4,0,Gift Card,0
+354,India,42.0,Female,Standard,499.0,31,13.9,2,1,UPI,1
+355,USA,34.0,Female,Basic,9.99,12,6.2,2,0,Credit Card,0
+356,India,53.0,Male,Standard,499.0,17,12.8,3,0,UPI,1
+357,India,36.0,Female,Basic,199.0,35,8.9,2,0,UPI,0
+358,USA,29.0,Male,Basic,9.99,38,17.8,2,0,Credit Card,0
+359,USA,,Female,Standard,15.49,19,9.6,2,0,Credit Card,0
+360,India,54.0,Female,Mobile,149.0,4,7.0,1,0,UPI,1
+361,India,36.0,Male,Premium,649.0,24,14.4,4,0,UPI,0
+362,India,28.0,Male,Standard,499.0,15,17.5,2,0,UPI,1
+363,India,27.0,Male,Basic,199.0,25,18.6,2,1,UPI,1
+364,India,43.0,Female,Standard,499.0,15,7.0,2,0,Credit Card,1
+365,India,27.0,Male,Premium,649.0,22,15.0,4,0,Wallet,0
+366,USA,34.0,Male,Premium,22.99,37,19.2,4,0,Credit Card,0
+367,India,51.0,Male,Standard,499.0,12,16.3,3,0,Debit Card,0
+368,India,30.0,Male,Standard,499.0,34,5.3,3,0,UPI,0
+369,USA,54.0,Female,Standard,15.49,17,17.9,3,0,Paypal,0
+370,India,29.0,Male,Basic,199.0,35,10.2,2,0,Credit Card,0
+371,India,26.0,Female,Mobile,149.0,23,5.0,1,0,Credit Card,1
+372,India,41.0,Female,Standard,499.0,13,8.1,2,0,Wallet,0
+373,USA,43.0,Female,Premium,22.99,40,11.1,4,1,Gift Card,1
+374,India,29.0,Female,Standard,499.0,15,7.2,2,0,UPI,0
+375,India,36.0,Female,Standard,499.0,24,8.4,2,0,UPI,0
+376,India,52.0,Male,Basic,199.0,38,14.7,2,0,UPI,0
+377,India,29.0,Female,Premium,649.0,4,12.0,4,0,UPI,0
+378,India,33.0,Female,Mobile,149.0,3,15.2,1,1,Wallet,1
+379,India,55.0,Female,Premium,649.0,1,16.2,4,0,UPI,1
+380,India,46.0,Female,Standard,499.0,41,5.5,3,0,UPI,0
+381,USA,25.0,Male,Standard,15.49,10,5.8,2,0,Debit Card,0
+382,USA,25.0,Female,Basic,9.99,21,9.1,1,0,Credit Card,0
+383,India,50.0,Male,Basic,199.0,35,,2,0,UPI,0
+384,India,35.0,Female,Basic,199.0,2,12.5,2,0,Credit Card,0
+385,India,51.0,Female,Basic,199.0,17,16.8,2,0,UPI,0
+386,India,53.0,Male,Mobile,149.0,37,11.8,1,0,Wallet,0
+387,India,28.0,Male,Premium,649.0,25,9.9,4,0,Debit Card,0
+388,India,36.0,Male,Standard,499.0,29,9.6,2,0,UPI,0
+389,USA,38.0,Male,Basic,9.99,18,,2,0,Debit Card,0
+390,India,36.0,Female,Basic,199.0,4,16.4,2,0,Debit Card,1
+391,India,25.0,Male,Basic,199.0,24,17.3,1,1,UPI,1
+392,USA,27.0,Male,Basic,9.99,31,11.9,1,0,Paypal,0
+393,USA,27.0,Female,Basic,9.99,11,9.4,2,0,Credit Card,0
+394,USA,53.0,Female,Basic,9.99,10,8.0,2,0,Paypal,0
+395,India,45.0,Male,Premium,649.0,41,7.3,4,0,UPI,0
+396,India,,Female,Mobile,149.0,20,16.2,1,0,UPI,1
+397,India,48.0,Female,Basic,199.0,37,13.0,2,0,Wallet,0
+398,USA,55.0,Female,Standard,15.49,36,15.4,3,1,Credit Card,0
+399,India,43.0,Female,Standard,499.0,16,14.4,3,0,UPI,0
+400,USA,36.0,Male,Standard,15.49,32,18.4,2,0,Credit Card,0
+401,USA,55.0,Male,Basic,9.99,31,12.8,1,0,Paypal,0
+402,USA,28.0,Male,Standard,15.49,31,13.6,2,0,Paypal,0
+403,India,34.0,Male,Premium,649.0,29,5.5,4,1,UPI,1
+404,India,24.0,Male,Standard,499.0,8,6.5,3,0,Wallet,0
+405,USA,32.0,Male,Premium,22.99,38,16.2,4,0,Debit Card,0
+406,India,36.0,Female,Mobile,149.0,8,6.1,1,0,UPI,1
+407,India,42.0,Female,Mobile,149.0,31,5.2,1,0,Debit Card,1
+408,India,29.0,Female,Standard,499.0,28,16.6,2,0,Debit Card,0
+409,USA,48.0,Female,Premium,22.99,37,,4,0,Debit Card,0
+410,USA,48.0,Female,Premium,22.99,7,10.7,4,1,Credit Card,0
+411,India,38.0,Male,Basic,199.0,19,7.0,1,0,UPI,0
+412,India,36.0,Male,Standard,499.0,38,14.4,2,0,Credit Card,0
+413,USA,45.0,Male,Premium,22.99,10,12.4,4,0,Credit Card,1
+414,India,51.0,Female,Mobile,149.0,26,5.1,1,0,Debit Card,0
+415,India,27.0,Female,Standard,499.0,32,10.4,2,0,Debit Card,0
+416,India,40.0,Male,Premium,649.0,39,7.5,4,0,Wallet,0
+417,USA,49.0,Male,Basic,9.99,26,7.2,2,0,Paypal,0
+418,India,28.0,Female,Standard,499.0,37,13.8,2,1,UPI,0
+419,India,44.0,Male,Standard,499.0,18,18.0,2,0,UPI,0
+420,India,27.0,Male,Standard,499.0,29,7.8,3,0,UPI,0
+421,India,54.0,Female,Mobile,149.0,9,,1,0,UPI,1
+422,USA,50.0,Female,Standard,15.49,7,7.0,2,0,Credit Card,0
+423,India,36.0,Male,Standard,499.0,20,4.6,2,0,UPI,0
+424,USA,37.0,Male,Basic,9.99,7,,1,0,Gift Card,0
+425,India,37.0,Female,Basic,199.0,12,16.4,2,0,UPI,0
+426,India,28.0,Male,Mobile,149.0,14,14.6,1,0,Credit Card,0
+427,India,32.0,Female,Standard,499.0,4,6.0,3,0,Debit Card,1
+428,India,36.0,Male,Mobile,149.0,18,12.7,1,0,UPI,1
+429,India,48.0,Male,Standard,499.0,26,17.0,2,0,Credit Card,0
+430,USA,45.0,Male,Standard,15.49,28,10.1,2,0,Paypal,0
+431,USA,54.0,Male,Standard,15.49,23,5.4,3,0,Paypal,1
+432,India,45.0,Male,Basic,199.0,41,9.8,2,0,UPI,0
+433,India,46.0,Male,Mobile,149.0,23,7.9,1,0,UPI,1
+434,India,39.0,Female,Standard,499.0,31,12.2,2,0,UPI,0
+435,USA,51.0,Male,Basic,9.99,41,8.8,2,0,Credit Card,0
+436,USA,26.0,Male,Basic,9.99,24,17.9,1,0,Paypal,1
+437,India,25.0,Male,Premium,649.0,16,8.3,4,0,UPI,0
+438,India,41.0,Female,Basic,199.0,21,13.7,1,0,Debit Card,0
+439,India,51.0,Female,Basic,199.0,15,17.5,2,0,Wallet,0
+440,India,28.0,Male,Standard,499.0,2,4.8,3,0,Wallet,0
+441,USA,55.0,Male,Basic,9.99,37,17.4,2,0,Credit Card,0
+442,USA,25.0,Female,Standard,15.49,40,5.8,2,0,Credit Card,0
+443,India,43.0,Female,Mobile,149.0,25,13.1,1,0,UPI,1
+444,India,45.0,Female,Standard,499.0,19,18.3,3,0,UPI,0
+445,India,37.0,Male,Standard,499.0,30,5.4,2,0,Debit Card,0
+446,India,33.0,Male,Basic,199.0,27,8.6,2,0,Wallet,1
+447,India,37.0,Female,Mobile,149.0,34,7.2,1,0,UPI,0
+448,India,30.0,Female,Premium,649.0,32,16.5,4,1,Wallet,0
+449,India,26.0,Male,Standard,499.0,7,11.6,3,0,UPI,0
+450,USA,41.0,Male,Premium,22.99,17,16.9,4,0,Debit Card,0
+451,India,54.0,Female,Standard,499.0,17,6.6,3,0,UPI,0
+452,India,41.0,Female,Mobile,149.0,13,16.1,1,0,Debit Card,0
+453,India,24.0,Female,Basic,199.0,29,11.1,2,0,UPI,0
+454,India,45.0,Female,Mobile,149.0,30,10.8,1,0,Debit Card,0
+455,USA,40.0,Male,Standard,15.49,2,14.4,3,0,Credit Card,1
+456,India,,Male,Mobile,149.0,5,6.1,1,0,UPI,1
+457,India,52.0,Female,Standard,499.0,7,11.0,2,0,Wallet,0
+458,India,51.0,Female,Mobile,149.0,6,8.0,1,0,UPI,0
+459,USA,45.0,Male,Premium,22.99,42,16.1,4,0,Paypal,0
+460,India,30.0,Female,Basic,199.0,6,12.6,2,1,Debit Card,0
+461,USA,50.0,Male,Standard,15.49,6,16.9,2,0,Credit Card,0
+462,India,42.0,Female,Standard,499.0,35,11.1,3,0,UPI,0
+463,India,53.0,Female,Standard,499.0,38,7.0,3,0,Credit Card,0
+464,India,26.0,Female,Mobile,149.0,29,7.1,1,0,Wallet,1
+465,India,45.0,Female,Mobile,149.0,36,18.1,1,0,UPI,1
+466,India,38.0,Female,Basic,199.0,14,13.4,2,0,UPI,0
+467,USA,32.0,Female,Premium,22.99,6,7.8,4,0,Credit Card,1
+468,India,50.0,Female,Standard,499.0,27,6.6,3,0,Debit Card,1
+469,India,49.0,Male,Standard,499.0,34,12.5,3,0,UPI,0
+470,USA,52.0,Female,Premium,22.99,10,13.4,4,0,Gift Card,0
+471,India,54.0,Male,Basic,199.0,16,9.9,2,0,Debit Card,0
+472,USA,27.0,Female,Premium,22.99,23,5.6,4,0,Credit Card,1
+473,USA,44.0,Female,Basic,9.99,33,18.2,1,0,Debit Card,0
+474,India,44.0,Female,Premium,649.0,11,11.2,4,0,UPI,0
+475,USA,43.0,Male,Standard,15.49,14,9.6,3,0,Credit Card,0
+476,USA,38.0,Male,Standard,15.49,19,11.8,3,0,Credit Card,0
+477,USA,24.0,Female,Standard,15.49,12,9.6,2,0,Credit Card,0
+478,USA,30.0,Female,Premium,22.99,1,10.5,4,0,Paypal,0
+479,USA,39.0,Female,Basic,9.99,26,8.9,2,0,Paypal,0
+480,USA,34.0,Female,Standard,15.49,12,12.5,3,0,Debit Card,0
+481,India,31.0,Female,Mobile,149.0,13,17.1,1,0,UPI,0
+482,USA,35.0,Female,Premium,22.99,16,18.6,4,0,Gift Card,0
+483,India,43.0,Male,Standard,499.0,40,17.3,2,1,UPI,0
+484,USA,34.0,Male,Standard,15.49,23,6.3,2,0,Credit Card,0
+485,USA,29.0,Female,Premium,22.99,14,14.9,4,0,Paypal,0
+486,India,40.0,Male,Standard,499.0,1,13.5,2,0,Wallet,1
+487,USA,25.0,Female,Premium,22.99,8,11.8,4,0,Debit Card,0
+488,India,51.0,Male,Standard,499.0,8,10.3,2,1,Wallet,1
+489,USA,53.0,Male,Premium,22.99,9,15.6,4,0,Credit Card,0
+490,India,49.0,Female,Standard,499.0,24,14.6,2,0,Wallet,0
+491,India,41.0,Female,Standard,499.0,12,7.4,2,0,UPI,0
+492,India,25.0,Male,Mobile,149.0,29,12.7,1,1,Wallet,1
+493,India,43.0,Male,Premium,649.0,18,9.2,4,0,UPI,0
+494,India,34.0,Female,Premium,649.0,13,8.8,4,0,Wallet,0
+495,India,45.0,Female,Basic,199.0,8,12.7,1,0,Credit Card,0
+496,India,49.0,Female,Standard,499.0,28,17.4,3,0,Credit Card,0
+497,USA,46.0,Female,Premium,22.99,15,14.2,4,1,Paypal,1
+498,India,33.0,Female,Premium,649.0,32,13.9,4,0,Wallet,0
+499,India,52.0,Male,Premium,649.0,27,7.6,4,1,UPI,1
+500,USA,54.0,Male,Standard,15.49,26,17.8,2,0,Credit Card,1
+501,India,28.0,Female,Premium,649.0,42,16.7,4,0,Wallet,0
+502,USA,32.0,Female,Premium,22.99,15,5.5,4,0,Gift Card,0
+503,India,41.0,Female,Standard,499.0,12,13.9,3,1,Credit Card,1
+504,India,25.0,Male,Standard,499.0,15,18.4,2,0,UPI,0
+505,USA,50.0,Male,Premium,22.99,39,,4,0,Debit Card,0
+506,India,27.0,Male,Basic,199.0,40,5.1,2,1,Credit Card,0
+507,India,51.0,Female,Standard,499.0,15,18.6,2,0,Wallet,0
+508,USA,41.0,Male,Standard,15.49,21,17.7,2,0,Credit Card,0
+509,India,28.0,Male,Basic,199.0,13,13.7,1,0,UPI,0
+510,USA,48.0,Female,Basic,9.99,2,19.3,2,0,Credit Card,1
+511,India,51.0,Female,Mobile,149.0,28,14.0,1,0,UPI,0
+512,India,,Female,Standard,499.0,38,8.9,2,0,Debit Card,0
+513,India,27.0,Female,Basic,199.0,1,11.8,2,0,Debit Card,1
+514,India,48.0,Female,Basic,199.0,6,16.9,2,0,UPI,1
+515,India,48.0,Male,Basic,199.0,20,5.8,2,1,UPI,1
+516,India,46.0,Male,Mobile,149.0,19,13.1,1,0,Wallet,1
+517,USA,,Female,Standard,15.49,17,17.5,3,0,Paypal,1
+518,India,48.0,Male,Mobile,149.0,29,12.7,1,0,Wallet,1
+519,USA,40.0,Female,Premium,22.99,17,4.9,4,0,Credit Card,0
+520,India,50.0,Male,Basic,199.0,21,12.1,1,0,Wallet,0
+521,India,37.0,Female,Standard,499.0,39,8.2,2,1,Wallet,0
+522,India,50.0,Male,Standard,499.0,8,18.9,2,0,Wallet,1
+523,USA,35.0,Female,Standard,15.49,23,8.0,2,0,Paypal,0
+524,USA,33.0,Male,Premium,22.99,12,16.2,4,0,Credit Card,0
+525,USA,32.0,Male,Premium,22.99,39,5.5,4,0,Credit Card,0
+526,India,37.0,Female,Premium,649.0,3,14.7,4,0,UPI,0
+527,India,36.0,Female,Premium,649.0,24,7.7,4,0,UPI,1
+528,India,47.0,Female,Premium,649.0,3,9.0,4,0,Credit Card,0
+529,India,36.0,Female,Standard,499.0,6,9.2,2,0,UPI,0
+530,India,34.0,Male,Standard,499.0,3,11.2,3,0,UPI,1
+531,India,35.0,Male,Premium,649.0,40,13.0,4,0,UPI,0
+532,India,44.0,Female,Standard,499.0,3,8.0,2,0,Wallet,0
+533,India,41.0,Female,Standard,499.0,17,7.0,2,0,UPI,0
+534,USA,38.0,Female,Basic,9.99,33,12.4,1,0,Debit Card,0
+535,India,33.0,Male,Mobile,149.0,18,6.0,1,0,Debit Card,1
+536,India,39.0,Male,Premium,649.0,39,13.9,4,0,UPI,0
+537,India,33.0,Male,Basic,199.0,23,19.0,2,0,UPI,0
+538,USA,49.0,Male,Standard,15.49,29,4.9,3,0,Debit Card,1
+539,USA,50.0,Female,Premium,22.99,1,12.6,4,0,Paypal,1
+540,USA,54.0,Male,Basic,9.99,10,10.9,2,1,Credit Card,1
+541,India,40.0,Male,Premium,649.0,10,16.8,4,0,UPI,0
+542,India,28.0,Female,Standard,499.0,16,17.5,3,0,UPI,0
+543,India,29.0,Female,Mobile,149.0,25,8.1,1,0,UPI,0
+544,India,54.0,Male,Standard,499.0,31,12.4,2,0,UPI,0
+545,USA,36.0,Female,Standard,15.49,41,4.8,2,0,Gift Card,0
+546,India,54.0,Male,Basic,199.0,28,15.6,2,0,UPI,0
+547,India,48.0,Male,Premium,649.0,10,9.6,4,0,Credit Card,0
+548,India,49.0,Female,Standard,499.0,22,17.3,2,0,Wallet,0
+549,USA,53.0,Male,Basic,9.99,11,13.8,1,0,Paypal,0
+550,USA,27.0,Female,Basic,9.99,15,14.8,2,0,Paypal,0
+551,India,33.0,Male,Basic,199.0,42,17.0,2,0,UPI,0
+552,India,25.0,Male,Standard,499.0,20,18.7,3,0,UPI,0
+553,India,48.0,Male,Mobile,149.0,1,10.9,1,1,UPI,1
+554,USA,27.0,Female,Basic,9.99,16,12.6,2,0,Credit Card,0
+555,India,44.0,Male,Premium,649.0,9,9.6,4,0,Debit Card,0
+556,India,49.0,Male,Mobile,149.0,2,16.2,1,1,Wallet,1
+557,USA,46.0,Female,Standard,15.49,42,18.6,3,0,Paypal,0
+558,India,53.0,Male,Mobile,149.0,25,15.3,1,0,UPI,0
+559,USA,35.0,Male,Basic,9.99,42,4.8,2,0,Paypal,0
+560,USA,27.0,Male,Premium,22.99,37,16.1,4,0,Gift Card,0
+561,India,24.0,Female,Standard,499.0,29,10.2,2,0,UPI,1
+562,USA,36.0,Male,Premium,22.99,9,,4,0,Paypal,0
+563,USA,55.0,Female,Standard,15.49,42,15.5,2,0,Debit Card,0
+564,India,46.0,Male,Premium,649.0,24,16.4,4,0,UPI,1
+565,India,30.0,Female,Basic,199.0,40,,2,0,UPI,0
+566,India,53.0,Female,Premium,649.0,20,14.5,4,0,Credit Card,0
+567,USA,55.0,Female,Standard,15.49,42,15.7,2,1,Debit Card,0
+568,USA,55.0,Female,Standard,15.49,5,13.5,3,0,Debit Card,0
+569,India,44.0,Female,Premium,649.0,33,11.8,4,0,Wallet,0
+570,USA,47.0,Female,Standard,15.49,10,7.8,2,0,Debit Card,0
+571,India,37.0,Female,Premium,649.0,40,13.8,4,0,UPI,0
+572,India,25.0,Male,Premium,649.0,34,10.2,4,0,Wallet,0
+573,India,42.0,Male,Basic,199.0,12,8.2,2,0,UPI,0
+574,USA,36.0,Male,Standard,15.49,24,15.5,3,0,Credit Card,0
+575,India,33.0,Male,Mobile,149.0,32,9.6,1,0,Wallet,0
+576,USA,26.0,Female,Premium,22.99,1,14.0,4,1,Paypal,1
+577,India,50.0,Female,Mobile,149.0,36,14.6,1,0,Debit Card,0
+578,India,25.0,Female,Standard,499.0,5,18.8,2,0,Credit Card,0
+579,India,28.0,Male,Premium,649.0,23,15.0,4,0,UPI,0
+580,India,43.0,Male,Premium,649.0,38,6.4,4,0,Wallet,0
+581,India,24.0,Male,Premium,649.0,25,14.1,4,0,UPI,0
+582,India,45.0,Male,Standard,499.0,5,15.8,2,0,Credit Card,0
+583,India,36.0,Female,Premium,649.0,32,5.7,4,0,UPI,0
+584,India,51.0,Male,Premium,649.0,5,15.2,4,1,Debit Card,0
+585,USA,51.0,Male,Standard,15.49,18,17.3,2,0,Credit Card,0
+586,India,49.0,Female,Standard,499.0,39,16.6,2,0,Debit Card,0
+587,India,45.0,Male,Premium,649.0,37,12.9,4,1,Credit Card,0
+588,India,52.0,Male,Basic,199.0,7,12.7,2,0,UPI,0
+589,USA,40.0,Female,Basic,9.99,20,5.6,2,0,Debit Card,0
+590,India,28.0,Female,Premium,649.0,26,14.7,4,0,Debit Card,1
+591,India,52.0,Female,Basic,199.0,36,7.4,2,1,Debit Card,0
+592,USA,41.0,Male,Premium,22.99,8,14.6,4,0,Paypal,0
+593,India,54.0,Male,Standard,499.0,23,13.3,3,0,Debit Card,1
+594,India,43.0,Male,Standard,499.0,38,16.5,2,0,Debit Card,0
+595,USA,46.0,Female,Standard,15.49,35,7.1,3,0,Debit Card,0
+596,India,48.0,Male,Standard,499.0,22,18.3,2,0,Credit Card,1
+597,India,48.0,Male,Standard,499.0,18,13.9,2,0,Debit Card,0
+598,India,27.0,Female,Mobile,149.0,23,12.0,1,0,UPI,0
+599,India,,Female,Basic,199.0,18,6.0,1,1,UPI,0
+600,USA,41.0,Female,Basic,9.99,40,10.5,2,0,Gift Card,0
+601,USA,41.0,Female,Standard,15.49,42,14.9,2,1,Credit Card,0
+602,India,54.0,Male,Mobile,149.0,7,7.4,1,0,Wallet,0
+603,USA,27.0,Female,Premium,22.99,7,4.6,4,0,Credit Card,0
+604,USA,51.0,Male,Standard,15.49,23,5.9,2,0,Credit Card,1
+605,USA,33.0,Male,Premium,22.99,19,8.8,4,0,Credit Card,0
+606,India,51.0,Male,Standard,499.0,10,12.3,2,0,Credit Card,1
+607,India,50.0,Female,Premium,649.0,2,5.5,4,0,Credit Card,1
+608,USA,51.0,Male,Premium,22.99,40,12.1,4,0,Credit Card,0
+609,India,40.0,Female,Standard,499.0,9,10.3,3,0,UPI,1
+610,USA,46.0,Female,Premium,22.99,11,4.8,4,0,Credit Card,0
+611,India,51.0,Female,Basic,199.0,17,11.8,2,0,Debit Card,0
+612,India,49.0,Male,Mobile,149.0,13,9.9,1,0,Debit Card,0
+613,USA,35.0,Female,Basic,9.99,11,8.5,2,0,Credit Card,0
+614,India,52.0,Female,Standard,499.0,31,16.6,3,1,UPI,0
+615,USA,55.0,Male,Basic,9.99,39,19.0,2,0,Credit Card,0
+616,USA,47.0,Female,Basic,9.99,29,16.5,2,0,Debit Card,0
+617,USA,46.0,Female,Standard,15.49,25,,3,0,Paypal,1
+618,USA,51.0,Male,Basic,9.99,39,12.1,2,0,Credit Card,0
+619,India,43.0,Male,Standard,499.0,12,12.0,2,0,UPI,1
+620,USA,52.0,Female,Premium,22.99,19,4.9,4,0,Credit Card,0
+621,USA,51.0,Female,Basic,9.99,39,10.3,2,0,Credit Card,0
+622,USA,26.0,Female,Basic,9.99,5,16.0,1,0,Debit Card,0
+623,USA,35.0,Male,Premium,22.99,5,18.8,4,1,Debit Card,1
+624,USA,43.0,Male,Basic,9.99,34,11.8,1,0,Credit Card,0
+625,USA,53.0,Male,Premium,22.99,25,8.0,4,0,Credit Card,1
+626,USA,50.0,Female,Standard,15.49,27,18.5,3,0,Paypal,1
+627,USA,53.0,Male,Premium,22.99,40,15.7,4,0,Debit Card,0
+628,India,38.0,Female,Mobile,149.0,39,8.7,1,0,UPI,0
+629,India,44.0,Male,Premium,649.0,7,16.2,4,0,UPI,0
+630,India,,Female,Standard,499.0,28,17.3,3,0,UPI,0
+631,USA,54.0,Male,Basic,9.99,2,12.6,2,0,Paypal,0
+632,USA,28.0,Male,Premium,22.99,7,17.1,4,0,Paypal,1
+633,USA,,Male,Premium,22.99,29,15.2,4,0,Paypal,1
+634,India,53.0,Male,Premium,649.0,1,6.7,4,0,Debit Card,0
+635,India,43.0,Male,Standard,499.0,27,4.5,2,1,Wallet,1
+636,USA,45.0,Male,Basic,9.99,21,10.3,2,0,Paypal,0
+637,India,44.0,Female,Standard,499.0,20,18.4,2,0,Credit Card,1
+638,USA,45.0,Female,Standard,15.49,5,16.4,2,0,Paypal,0
+639,USA,39.0,Male,Basic,9.99,29,11.2,2,1,Credit Card,0
+640,India,33.0,Male,Premium,649.0,12,17.5,4,0,Wallet,0
+641,India,45.0,Male,Mobile,149.0,26,9.1,1,0,UPI,1
+642,USA,37.0,Female,Basic,9.99,12,15.0,2,0,Credit Card,0
+643,India,47.0,Male,Premium,649.0,41,14.7,4,0,Debit Card,0
+644,USA,34.0,Male,Basic,9.99,38,17.4,1,1,Paypal,0
+645,India,25.0,Male,Basic,199.0,42,12.9,2,0,UPI,0
+646,USA,27.0,Male,Premium,22.99,1,9.7,4,0,Credit Card,0
+647,India,36.0,Female,Standard,499.0,26,,2,1,UPI,1
+648,India,40.0,Female,Basic,199.0,29,5.6,2,0,UPI,1
+649,USA,55.0,Female,Premium,22.99,42,13.1,4,0,Credit Card,0
+650,India,40.0,Male,Premium,649.0,36,9.6,4,0,Debit Card,0
+651,India,30.0,Male,Mobile,149.0,7,13.4,1,1,Wallet,1
+652,USA,55.0,Female,Premium,22.99,33,11.6,4,0,Credit Card,0
+653,India,28.0,Female,Standard,499.0,24,7.1,2,0,UPI,1
+654,India,44.0,Male,Mobile,149.0,5,12.9,1,0,Credit Card,0
+655,India,32.0,Female,Standard,499.0,33,7.0,2,0,Credit Card,1
+656,USA,38.0,Female,Standard,15.49,28,5.2,3,0,Credit Card,0
+657,India,33.0,Female,Mobile,149.0,21,9.2,1,0,UPI,1
+658,USA,39.0,Male,Standard,15.49,20,9.3,2,0,Paypal,1
+659,India,40.0,Female,Mobile,149.0,42,12.5,1,0,UPI,1
+660,USA,36.0,Male,Basic,9.99,31,,2,0,Credit Card,0
+661,India,48.0,Male,Standard,499.0,10,16.1,3,0,UPI,0
+662,India,24.0,Male,Basic,199.0,15,18.3,2,0,Wallet,0
+663,USA,43.0,Female,Premium,22.99,10,12.2,4,0,Credit Card,1
+664,India,29.0,Female,Premium,649.0,39,16.2,4,0,UPI,0
+665,USA,31.0,Male,Standard,15.49,22,16.7,2,0,Credit Card,0
+666,India,32.0,Female,Basic,199.0,31,9.6,2,0,UPI,0
+667,India,51.0,Male,Standard,499.0,4,18.6,3,0,UPI,0
+668,India,52.0,Male,Premium,649.0,14,17.9,4,0,Credit Card,0
+669,India,54.0,Male,Mobile,149.0,31,16.0,1,0,UPI,0
+670,USA,53.0,Male,Basic,9.99,20,8.9,1,0,Credit Card,1
+671,USA,35.0,Female,Basic,9.99,20,12.7,2,0,Credit Card,0
+672,USA,33.0,Male,Standard,15.49,24,11.6,2,0,Credit Card,0
+673,India,24.0,Female,Standard,499.0,32,17.7,2,0,UPI,0
+674,USA,34.0,Female,Basic,9.99,20,12.6,2,0,Debit Card,1
+675,India,50.0,Female,Standard,499.0,23,9.9,3,0,UPI,0
+676,USA,47.0,Male,Standard,15.49,31,9.8,2,0,Debit Card,0
+677,USA,32.0,Female,Standard,15.49,25,10.0,3,0,Paypal,0
+678,USA,27.0,Female,Standard,15.49,10,13.8,2,0,Debit Card,1
+679,USA,52.0,Male,Standard,15.49,12,8.2,2,0,Credit Card,0
+680,USA,,Female,Basic,9.99,17,16.8,2,0,Credit Card,0
+681,India,37.0,Female,Basic,199.0,41,13.3,2,0,UPI,0
+682,India,28.0,Male,Standard,499.0,25,4.8,3,0,Wallet,1
+683,USA,40.0,Male,Standard,15.49,41,11.8,2,0,Paypal,0
+684,India,49.0,Male,Premium,649.0,16,6.5,4,0,Debit Card,0
+685,India,26.0,Male,Basic,199.0,4,7.8,2,0,UPI,1
+686,USA,30.0,Male,Basic,9.99,13,14.2,1,0,Debit Card,0
+687,India,51.0,Male,Premium,649.0,17,,4,0,Debit Card,0
+688,USA,30.0,Male,Premium,22.99,14,13.7,4,0,Credit Card,0
+689,India,39.0,Male,Basic,199.0,3,7.4,2,1,Wallet,1
+690,India,51.0,Male,Premium,649.0,22,10.7,4,0,UPI,0
+691,India,34.0,Female,Basic,199.0,6,16.0,1,1,UPI,0
+692,USA,49.0,Male,Premium,22.99,31,18.5,4,0,Debit Card,0
+693,India,24.0,Female,Standard,499.0,31,16.8,2,0,UPI,0
+694,USA,43.0,Female,Basic,9.99,9,13.9,1,0,Paypal,0
+695,USA,42.0,Male,Premium,22.99,24,19.4,4,0,Credit Card,0
+696,India,35.0,Male,Standard,499.0,10,11.6,2,0,Wallet,0
+697,USA,41.0,Female,Premium,22.99,3,6.5,4,0,Paypal,1
+698,USA,49.0,Male,Standard,15.49,41,11.9,2,0,Credit Card,0
+699,USA,46.0,Female,Basic,9.99,41,13.0,2,1,Paypal,1
+700,USA,34.0,Female,Standard,15.49,24,12.7,2,0,Paypal,0
